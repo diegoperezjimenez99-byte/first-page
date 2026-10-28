@@ -1,0 +1,117 @@
+/* Reseteo básico y fuente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #0f632f; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor central */
+.contenedor {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex: 1;
+    text-align: center;
+}
+
+h2 {
+    color: #0f632f;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #4b5563;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #e5e7eb;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Inputs y Selects */
+input[type="number"], select {
+    width: 80%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Mensajes de respuesta */
+#mensajeNumero, #textoGusto {
+    margin-top: 10px;
+    font-weight: bold;
+    min-height: 24px;
+}
+
+/* Contenedor e Imagen del Selector */
+.caja-imagen {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.caja-imagen img {
+    max-width: 600px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #166534;
+}
+
+/* Botón de Alerta */
+#btnAlerta {
+    background-color: #15803d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#btnAlerta:hover {
+    background-color: #166534;
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: auto;
+}

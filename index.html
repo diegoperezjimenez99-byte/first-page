@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Entregable</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mi Sitio Web...  cuando pagan?</h1>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="contenedor">
+        
+        <!-- Nombre y Descripción -->
+        <h2>Diego Pérez Jiménez</h2>
+        <p class="descripcion">
+            ¡Hola! Mi nombre es Diego Pérez Jiménez, me gusta mucho dormir y comer. Mi color favorito es el verde y actualmente estoy estudiando en el SENA. Vivo en Aures y me apasiona aprender sobre tecnología y desarrollo web.
+        </p>
+
+        <!-- Juego: Adivina mi número favorito -->
+        <section class="seccion-juego">
+            <h3>Adivina mi # favorito</h3>
+            <input type="number" id="numeroInput" placeholder="Ingresa un número">
+            <p id="mensajeNumero"></p>
+        </section>
+
+        <!-- Selector de Gustos -->
+        <section class="seccion-selector">
+            <label for="gustosSelect"><strong>Selecciona una opción:</strong></label>
+            <select id="gustosSelect">
+                <option value="">-- Selecciona --</option>
+                <option value="serie">Serie favorita</option>
+                <option value="lugar">Lugar favorito</option>
+                <option value="trabajo">Trabajo soñado</option>
+            </select>
+
+            <p id="textoGusto">Selecciona una opción</p>
+            
+            <!-- Imagen dinámica con imagen inicial cargada por defecto -->
+            <div class="caja-imagen">
+                <img id="imagenGusto" src="https://media.istockphoto.com/id/1405983081/es/vector/hombre-de-negocios-en-una-encrucijada-de-ilustraci%C3%B3n-vectorial-plana.jpg?s=612x612&w=0&k=20&c=2NckQQva12cXGcsq7_PC8qsFwt55J-OGbeEIyyt2984=" alt="Selecciona una opción">
+            </div>
+        </section>
+
+        <!-- Botón de Alerta -->
+        <section class="seccion-boton">
+            <button id="btnAlerta">Botón</button>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Diego Pérez Jiménez | SENA | Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Archivo JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
